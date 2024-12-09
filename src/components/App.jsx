@@ -14,7 +14,7 @@ const App = () => {
         <FaAddressBook className={css.titleIcon} size="40" />
         Phonebook
       </h1>
-      <Toaster position="top-center" reverseOrder={false} />
+      <Toaster position="top-right" reverseOrder={false} />
       <ContactForm />
       <SearchBox />
       <ContactList />
